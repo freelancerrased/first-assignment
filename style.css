@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header style */
+
+.head-container{
+    background-image: url(/images/banner/banner1.png);
+    height: 800px;
+    margin-top: 0;
+}
+.header-text{
+    text-align: right;
+    margin-right: 150px;
+    padding-top: 270px;
+   
+}
+
+.head-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    
+}
+
+.head-description{
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.head-btn{
+    color: white;
+    margin-top: 32px;
+    padding: 10px 20px;
+    background-color: #F15B22;
+    border-radius: 5px;
+}
+
+/* My Failures Style */
+.my-failures-container{
+    margin: 80px 230px;
+}
+
+.for-flex{
+    display: flex;
+}
+.my-failures-text{
+    padding-top: 200px;
+    margin-left: 52px;
+}
+.my-failures-title{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.my-failures-descrip{
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+    color: #444343;
+    margin-bottom: 20px;
+}
+ul li{
+    font-size: 16px;
+    color: #444343;
+    line-height: 30px;
+}
+
+
+ /* footer section style */
+.footer-container{
+   
+    height: 400px;
+    background-color: black;
+    color: white;
+    
+}
+.footer-section{
+    padding: 100px 230px;
+    display: flex;
+}
+
+.footer-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+.footer-descrip{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 16px;
+}
+.email{
+    margin-top: 24px;
+}
+.phone{
+    margin-top: 16px;
+}
+.icons{
+    margin-top: 15px;
+    padding-right: 6px;
+    
+}
+.footer-subscribe{
+    padding-left:  150px;
+}
+.subscribe-title{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 31px;
+}
+.footer-email-box{
+    background-color: black;
+    color: white;
+    padding: 15px 40px;
+    border: 1px solid rgb(255, 239, 239);
+}
+.footer-btn{
+    margin-top: 16px;
+    color: #F15B22;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
