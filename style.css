@@ -1,35 +1,35 @@
-*{
+* {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
 
-/* header style */
+/* header section style */
 
-.head-container{
+.head-container {
     background-image: url(/images/banner/banner1.png);
     height: 800px;
     margin-top: 0;
 }
-.header-text{
+
+.header-text {
     text-align: right;
     margin-right: 150px;
     padding-top: 270px;
-   
+
 }
 
-.head-title{
+.head-title {
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
-    
 }
 
-.head-description{
+.head-description {
     font-size: 16px;
     margin-top: 24px;
 }
 
-.head-btn{
+.head-btn {
     color: white;
     margin-top: 32px;
     padding: 10px 20px;
@@ -38,34 +38,38 @@
 }
 
 /* My Failures Style */
-.my-failures-container{
+.my-failures-container {
     margin: 80px 230px;
 }
 
-.my-failures-image{
+.my-failures-image {
     height: 450px;
     margin-top: 50px;
 }
-.for-flex{
+
+.for-flex {
     display: flex;
 }
-.my-failures-text{
+
+.my-failures-text {
     padding-top: 90px;
     margin-left: 52px;
 }
-.my-failures-title{
+
+.my-failures-title {
     font-weight: 700;
     font-size: 40px;
 }
 
-.my-failures-descrip{
+.my-failures-descrip {
     font-size: 16px;
     line-height: 26px;
     margin-top: 24px;
     color: #444343;
     margin-bottom: 20px;
 }
-ul li{
+
+ul li {
     font-size: 16px;
     color: #444343;
     line-height: 30px;
@@ -73,102 +77,143 @@ ul li{
 
 
 /* My Plan Section Style */
-.my-plan-section{
+.my-plan-section {
     display: flex;
     margin-bottom: 150px;
     justify-content: space-around;
     text-align: center;
 }
 
-.my-plan-headline{
+.my-plan-headline {
     font-weight: 700;
     font-size: 40px;
     text-align: center;
     margin-top: 120px;
     margin-bottom: 50px;
 }
-.my-plan-title{
+
+.my-plan-title {
     margin-top: 10px;
 }
-.my-plan-sub-title{
-   margin-top: 16px; 
+
+.my-plan-sub-title {
+    margin-top: 16px;
+}
+
+
+/* Total Work Section Style */
+
+.client-satisfaction {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+
+}
+
+.client-info {
+    padding: 60px 20px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.client-title {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
+.total-work {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 
 /* watch image style */
 
-.watch-container{
+.watch-container {
     background-image: url(/images/watch.png);
     height: 300px;
     margin-top: 70px;
-    
+
 }
-.watch-info{
+
+.watch-info {
     padding: 60px 617px 90px 64px;
     background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
     border-radius: 8px;
 }
 
-.watch-title{
+.watch-title {
     font-weight: 700;
     font-size: 40px;
     color: white;
 }
 
 
- /* footer section style */
-.footer-container{
-   
+/* footer section style */
+.footer-container {
+
     height: 500px;
     background-color: black;
     color: white;
-    
-}
-.footer-section{
-    padding: 100px 230px 0 230px;
-    display: flex;
-    
+
 }
 
-.footer-title{
+.footer-section {
+    padding: 100px 230px 0 230px;
+    display: flex;
+
+}
+
+.footer-title {
     font-weight: 700;
     font-size: 45px;
 }
-.footer-descrip{
+
+.footer-descrip {
     font-weight: 400;
     font-size: 16px;
     margin-top: 16px;
 }
-.email{
+
+.email {
     margin-top: 24px;
 }
-.phone{
+
+.phone {
     margin-top: 16px;
 }
-.icons{
+
+.icons {
     margin-top: 15px;
     padding-right: 6px;
-    
+
 }
-.footer-subscribe{
-    padding-left:  150px;
+
+.footer-subscribe {
+    padding-left: 150px;
 }
-.subscribe-title{
+
+.subscribe-title {
     font-weight: 600;
     font-size: 25px;
     margin-bottom: 31px;
 }
-.footer-email-box{
+
+.footer-email-box {
     background-color: black;
     color: white;
     padding: 15px 40px;
     border: 1px solid rgb(255, 239, 239);
 }
-.footer-btn{
+
+.footer-btn {
     margin-top: 16px;
     color: #F15B22;
     padding: 10px 20px;
     background-color: #FFFFFF;
     border-radius: 5px;
-    
+
 }
