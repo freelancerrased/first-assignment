@@ -6,7 +6,7 @@
 /* header section style */
 
 .head-container {
-    background-image: url(/images/banner/banner1.png);
+    background-image: url(./images/banner/banner1.png);
     height: 800px;
     margin-top: 0;
 }
@@ -133,7 +133,7 @@ ul li {
 /* watch image style */
 
 .watch-container {
-    background-image: url(/images/watch.png);
+    background-image: url(./images/watch.png);
     height: 300px;
     margin-top: 70px;
 
